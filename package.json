@@ -1,0 +1,14 @@
+{
+  "name": "@anio-sh/runmocha",
+  "version": "0.0.1",
+  "description": "",
+  "bin": {
+    "anio_runmocha": "./src/cli.mjs"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}

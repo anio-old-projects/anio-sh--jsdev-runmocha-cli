@@ -8,4 +8,4 @@ Runs unit tests with [mocha](https://github.com/mochajs/mocha).
 
 Only files ending with `.test.mjs` will be added to the unit test suite.
 
-When executing the unit tests, process' current working directory will be `<tests_directory>`.
+When executing the unit tests, the process' current working directory will be set to `<tests_directory>`.

@@ -52,6 +52,14 @@ export default async function(project_root) {
 		mocha.addFile(test_file)
 	}
 
+	if (!test_files.length) {
+		process.stderr.write(
+			`No test files found!\n`
+		)
+
+		process.exit(2)
+	}
+
 	await mocha.loadFilesAsync()
 
 	mocha.run(failures => {

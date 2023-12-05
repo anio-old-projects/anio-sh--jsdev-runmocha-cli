@@ -1,6 +1,6 @@
 {
   "name": "@anio-sh/runmocha",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "bin": {
     "anio_runmocha": "./src/cli.mjs"
